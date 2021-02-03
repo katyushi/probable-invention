@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/vuejs,laravel,vue
+# Edit at https://www.toptal.com/developers/gitignore?templates=vuejs,laravel,vue
+
+### Laravel ###
 /vendor/
 node_modules/
 npm-debug.log
@@ -21,3 +25,25 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+# Laravel IDE helper
+*.meta.*
+_ide_*
+
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+dist/
+
+# End of https://www.toptal.com/developers/gitignore/api/vuejs,laravel,vue

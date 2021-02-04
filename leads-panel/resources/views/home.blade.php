@@ -17,6 +17,7 @@
                     <a href="{{ url('leads') }}" class="btn home-button">Leads</a>
                     <a href="{{ url('calls') }}" class="btn home-button">Ligações</a>
                     <a href="{{ url('calllogs') }}" class="btn home-button">Registro de chamadas</a>
+                    <a href="{{ url('extras') }}" class="btn home-button">Extras</a>
                 </div>
             </div>
         </div>

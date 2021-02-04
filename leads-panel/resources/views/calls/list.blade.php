@@ -13,10 +13,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <a href="{{ url('calllogs') }}" class="back-button">< home</a>
+                    <a href="{{ url('home') }}" class="btn back-button">< home</a>
                     <br>
 
-                    content
+                    
                 </div>
             </div>
         </div>

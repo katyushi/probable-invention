@@ -14,9 +14,9 @@
                         </div>
                     @endif
 
-                    <a href="{{ url('leads') }}" class="home-button">Leads</a>
-                    <a href="{{ url('calls') }}" class="home-button">Ligações</a>
-                    <a href="{{ url('calllogs') }}" class="home-button">Registro de chamadas</a>
+                    <a href="{{ url('leads') }}" class="btn home-button">Leads</a>
+                    <a href="{{ url('calls') }}" class="btn home-button">Ligações</a>
+                    <a href="{{ url('calllogs') }}" class="btn home-button">Registro de chamadas</a>
                 </div>
             </div>
         </div>

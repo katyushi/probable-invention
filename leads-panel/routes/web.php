@@ -22,5 +22,13 @@ Route::group(['middleware' => 'web'], function () {
 });
 
 Route::get('/leads', [App\Http\Controllers\LeadsController::class, 'index']);
+Route::get('/leads/new', [App\Http\Controllers\LeadsController::class, 'new']);
+Route::post('/leads/add', [App\Http\Controllers\LeadsController::class, 'add']);
+Route::get('/leads/{id}/edit', [App\Http\Controllers\LeadsController::class, 'edit']);
+Route::post('/leads/update/{id}', [App\Http\Controllers\LeadsController::class, 'update']);
+Route::delete('/leads/delete/{id}', [App\Http\Controllers\LeadsController::class, 'delete']);
+
 Route::get('/calls', [App\Http\Controllers\CallsController::class, 'index']);
+Route::post('/calls/add', [App\Http\Controllers\CallsController::class, 'add']);
+
 Route::get('/calllogs', [App\Http\Controllers\CallLogController::class, 'index']);

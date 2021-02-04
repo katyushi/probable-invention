@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <button href="" class="home-button">Leads</button>
+                    <button href="" class="home-button">Ligações</button>
+                    <button href="" class="home-button">Registro de chamadas</button>
                 </div>
             </div>
         </div>

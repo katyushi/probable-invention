@@ -32,3 +32,5 @@ Route::get('/calls', [App\Http\Controllers\CallsController::class, 'index']);
 Route::post('/calls/add', [App\Http\Controllers\CallsController::class, 'add']);
 
 Route::get('/calllogs', [App\Http\Controllers\CallLogController::class, 'index']);
+
+Route::get('/extras', [App\Http\Controllers\ExtraController::class, 'index']);

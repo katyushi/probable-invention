@@ -1,4 +1,5 @@
-.home-button {
+.home-button,
+.back-button {
     background-color: $blue;
     color: $white;
     margin: 15px 0; 
@@ -9,6 +10,7 @@
     display: block;
     border: none;
     min-width: 75px;
+    max-width: 162px;
 
     &:first-child {
         margin-top: 0;
@@ -20,5 +22,12 @@
 
     &:hover {
         background-color: $cyan;
+        text-decoration: none;
+        color: $white;
     }
+}
+
+.back-button {
+    max-width: 76px;
+    margin-top: 0;
 }

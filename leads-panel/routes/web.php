@@ -20,3 +20,7 @@ Route::group(['middleware' => 'web'], function () {
 
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 });
+
+Route::get('/leads', [App\Http\Controllers\LeadsController::class, 'index']);
+Route::get('/calls', [App\Http\Controllers\CallsController::class, 'index']);
+Route::get('/calllogs', [App\Http\Controllers\CallLogController::class, 'index']);

@@ -10004,7 +10004,8 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.home-button {
+.home-button,
+.back-button {
   background-color: #3490dc;
   color: #ffffff;
   margin: 15px 0;
@@ -10014,13 +10015,24 @@ h3 {
   font-size: 14px;
   display: block;
   border: none;
+  min-width: 75px;
+  max-width: 162px;
 }
-.home-button:first-child {
+.home-button:first-child,
+.back-button:first-child {
   margin-top: 0;
 }
-.home-button:last-child {
+.home-button:last-child,
+.back-button:last-child {
   margin-bottom: 0;
 }
-.home-button:hover {
+.home-button:hover,
+.back-button:hover {
   background-color: #6cb2eb;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.back-button {
+  max-width: 76px;
 }

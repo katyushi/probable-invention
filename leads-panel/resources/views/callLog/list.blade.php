@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">Registro de chamadas</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -13,10 +13,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    <a href="{{ url('calllogs') }}" class="back-button">< home</a>
+                    <br>
 
-                    <a href="{{ url('leads') }}" class="home-button">Leads</a>
-                    <a href="{{ url('calls') }}" class="home-button">Ligações</a>
-                    <a href="{{ url('calllogs') }}" class="home-button">Registro de chamadas</a>
+                    content
                 </div>
             </div>
         </div>
